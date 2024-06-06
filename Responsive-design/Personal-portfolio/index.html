@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Personal Portfolio page - freeCodeCamp RWD project">
+    <meta name="keywords" content="portfolio">
+    <meta name="author" content="Flynn">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portfolio</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Prompt&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    <header class="header">
+      <!-- *06: YOUR PORTFOLIO SHOULD HAVE A NAVBAR WITH AN id OF navbar -->
+      <nav id="navbar">
+        <ul>
+          <!-- 07: THE NAVBAR SHOULD CONTAIN AT LEAST ONE LINK THAT YOU CAN CLICK ON TO NAVIGATE TO DIFFERENT SECTIONS OF THE PAGE -->
+          <li><a class="nav-link" href="#welcome-section">About</a></li>
+          <li><a class="nav-link" href="#projects">Projects</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+      <div class="wrapper">
+        <!-- *01: YOUR PORTFOLIO SHOULD HAVE A WELCOME SECTION WITH AN id OF welcome-section -->
+        <section id="welcome-section">
+          <div class="content-wrapper">
+            <!-- *02: THE WELCOME SECTION SHOULD HAVE AN h1 ELEMENT THAT CONTAINS TEXT -->
+            <h1>Flynn's Portfolio</h1>
+            <p class="slogan">You make the choice and I'll do the rest!</p>
+          </div>
+        </section>
+
+        <!-- *03 YOUR PORTFOLIO SHOULD HAVE A PROJECTS SECTION WITH AN id OF projects -->
+        <section id="projects">
+          <h1>My Work</h1>
+          <p>Some of the stuff I've been coding</p>
+          <!-- *05: THE PROJECTS SECTION SHOULD CONTAIN AT LEAST ONE LINK TO A PROJECT -->
+
+          <div class="project-container">
+            <a href="#" target="_blank">
+              <!-- *04: THE PROJECTS SECTION SHOULD CONTAIN AT LEAST ONE ELEMENT WITH A class OF project-tile TO HOLD A PROJECT -->
+              <figure class="project-tile">
+                <img src="images/tribute-page-ok.jpg" alt="Tribute Page Project" class="project-image" width="300" height="300">
+                <figcaption>Tribute Page</figcaption>
+              </figure>
+            </a>
+
+            <a href="#" target="_blank">
+              <figure class="project-tile">
+                <img src="images/survey-form-ok.png" alt="Survey Form Project" class="project-image" width="300" height="300">
+                <figcaption>Survey Form</figcaption>
+              </figure>
+            </a>
+
+            <a href="#" target="_blank">
+              <figure class="project-tile">
+                <img src="images/qr-componnt-ok.jpg" alt="QR Component Challenge" class="project-image" width="300" height="300">
+                <figcaption>QR Component</figcaption>
+              </figure>
+            </a>        
+        
+            <a href="#" target="_blank">
+              <figure class="project-tile">
+                <img src="images/landing-page-ok.png" alt="Landing Page Project" class="project-image" width="300" height="300">
+                <figcaption>Landing Page</figcaption>
+              </figure>
+            </a>
+
+            <a href="#" target="_blank">
+              <figure class="project-tile">
+                <img src="images/technical-documentation-ok.jpg" alt="QR Component Challenge" class="project-image" width="300" height="300">
+                <figcaption>Technical Documentation</figcaption>
+              </figure>
+            </a>
+            <a href="#" target="_blank">
+              <figure class="project-tile">
+                <img src="images/carl-sagan-ok.jpg" alt="Aother Tribute Page Project" class="project-image" width="300" height="300">
+                <figcaption>Aother Tribute Page</figcaption>
+              </figure>
+            </a>
+          </div>
+        </section>
+
+        <section id="contact">
+          <h1>Find me here:</h1>
+          <p>GitHub Profile</p>
+          <!-- 08: YOUR PORTFOLIO SHOULD HAVE A LINK WITH AN ID OF profile-link, WHICH OPENS YOUR GITHUB OR FREECODECAMP PROFILE IN A NEW TAB-->
+          <a class="profile" id="profile-link" href="https://github.com/JA-307020" target="_blank"><img src="images/github-mark-white.png"></a>
+        </section>
+
+        <footer class="footer">
+          <p>This is a dummy portfolio</p>
+          <p>Coded by <strong>Flynn</strong> for freeCodeCamp</p>
+        </footer>
+      </div> <!-- ?end of wrapper -->
+
+
+  </body>
+</html>

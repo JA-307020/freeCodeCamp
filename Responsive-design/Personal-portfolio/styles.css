@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header, section, footer, figure {
+  display: block;
+}
+
+body {
+  font-family: "Prompt", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  background-color: #000;
+  color: #ffa500;
+  overflow-x: hidden;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+#navbar ul {
+  min-width: 100vw;
+  min-height: 1.7rem;
+  display: flex;
+  padding: 0.3rem;
+  background-color: #ff6600;
+  justify-content: flex-end;
+}
+
+#navbar ul li {
+  list-style-type:  none;
+  padding: 0.3rem;
+}
+
+#navbar ul li a {
+  text-decoration: none;
+  font-variant: small-caps;
+  font-size: 1.7em;
+  color: #e2ded0;
+  padding: 0 2rem;
+}
+
+#navbar ul li a:hover {
+  color: #000;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 5em;
+}
+section {
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 4em;
+  text-align: center;
+  padding: 0 20px;
+}
+
+p {
+  color: #e2ded0;
+  font-size: 2em;
+  text-align: center;
+  padding: 0 20px;
+}
+
+#welcome-section {
+  min-width: 100vw;
+  display: flex;
+  margin: auto;
+  background-image: url("images/hero-image.png");
+}
+
+.content-wrapper {
+  margin: auto;
+}
+
+#projects {
+  padding-top: 10vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-container {
+  display: grid;
+  margin: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.project-container a {
+  text-decoration: none;
+  color: #ffa500;
+}
+
+.project-container a:hover {
+  color: #ffffff;
+}
+
+.project-tile {
+  width: 320px;
+  height: 350px;
+  padding: 20px; 
+}
+
+.project-tile img {
+  border-radius: 10px;
+}
+
+figcaption {
+  background-color: hsl(193.57, 85.71%, 19.22%);
+  text-align: center;
+  font-size: 1.2em;
+  width: 300px;
+  border-radius: 5px;
+}
+
+#contact {
+  min-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20vh;
+  align-items: center;
+}
+
+
+.footer {
+  height: 10vh;
+  font-size: 0.8em;
+}
+
+@media only screen and (width < 768px) {
+  .project-container {
+    grid-template-columns: 1fr;
+  }
+
+}
+@media only screen and (width >= 768px) {
+  .project-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (width > 1200px) {
+  .project-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

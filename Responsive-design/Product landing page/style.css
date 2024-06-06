@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 18px;
+    line-height: 1.3em;
+}
+
+/* NAVBAR */
+
+#header {
+    /* border: 1px solid red; */
+    display: grid;
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    /* border: 1px solid blue; */
+    justify-content: center;
+
+}
+
+.logo h1 {
+    align-self: center;
+    font-size: 3.5ww;
+}
+
+#header-img {
+    display: block;
+    padding: 5px;
+    height: auto;
+    max-width: 15%;
+}
+
+nav {
+    /* border: 2px solid magenta; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid green; */
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+/* #overlap {
+    position: absolute ;
+    margin-top: 120px;
+} */
+/* 
+#sectors {
+    margin-top: 120px;
+} */
+
+/* SECTORS */
+
+.sector-feature {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.sector-feature img {
+    display: none;
+}
+
+h2 {
+    padding-top: 30px;
+}
+
+.feature-img {
+    display: block;
+    max-width: 5%;
+    height: auto;
+}
+
+.details p {
+    padding-top: 15px;
+}
+
+.spacer {
+    padding-top: 95px;
+}
+
+iframe {
+    display: block;
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+#time {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.subscribe {
+    width: 90%;
+    margin: 0 auto;
+}
+
+label {
+    margin-right: 10px;
+}
+
+#email {
+    width: 70%;
+    margin: 0 auto;
+}
+
+#submit {
+    display: block;
+    margin: 10px auto;
+}
+
+footer {
+    background-color: black;
+}
+
+footer ul li {
+    padding-top: 5px;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}

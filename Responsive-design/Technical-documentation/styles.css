@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1.3em;
+  font-family: 'PT Sans', sans-serif;
+  line-height: 1.5em;
+  /* *On regular sized devices (laptops, desktops), the element with id="navbar" should be shown on the left half of the screen. It should always be visible to the user and should remain stationary. */
+  background-color: #faebd7;
+}
+
+main, section, header, article {
+  display: block;
+}
+
+.wrapper {
+  display: flex;
+}
+
+#navbar {
+  display: block;
+  min-height: 100%;
+  width: 300px;
+  min-width: 300px;
+  background-color: #fff;
+  position:absolute;
+}
+
+.logo {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.6em;
+  padding: 0.5em 0;
+  text-align: center;
+}
+
+.menu {
+  padding: 0.2em;
+}
+
+#navbar ul li {
+  border-top: 1px solid #000;
+  padding: 1vh;
+  cursor: pointer;
+}
+
+.nav-link {
+  list-style-type: none;
+  text-decoration: none;
+  color: #000;
+}
+#main-doc {
+  position: relative;
+  /* margin-left: 300px; */
+  height: 100%;
+  overflow-x: hidden;
+  padding: 3% 3% 0 3%;
+}
+
+#main-section {
+  display: block;
+}

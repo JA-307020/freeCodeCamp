@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*:focus {
+  outline: none;
+}
+
+body {
+  font-family: "Prompt", sans-serif;
+  background: url("../images/background_survey.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 30px auto;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #000000;
+  opacity: 0.9;
+}
+
+.header-container {
+  background-color: #213E4A;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 15px;
+  border-radius: 5px;
+  color: #D3D3D3;
+}
+
+.header-container #description {
+  font-size: 1.2em;
+}
+
+.form-container {
+  background-color: #213E4A;
+  margin-top: 30px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  color: #D3D3D3;
+}
+
+.form-group {
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group input {
+  flex: 1;
+  font-size: 1em;
+}
+
+.form-group p {
+  padding-bottom: 5px;
+}
+
+input, button, select, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  border-radius: 5px;
+}
+
+#submit {
+  background-color: #000000;
+  color: #D3D3D3;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 1000px) {
+  .wrapper {
+    width: 60%;
+  }
+}
