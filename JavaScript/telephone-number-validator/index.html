@@ -15,13 +15,18 @@
       <h1>Telephone Number Validator</h1>
       <div class="phone-frame">
         <div class="camera"></div>
+
         <div class="phone-display">
           <label for="user-input">Enter a Phone Number</label>
-          <input type="text" id="user-input">
-          <div class="output-area"></div>
+          <input type="text" id="user-input" autofocus>
+          <div class="output-area" id="results-div"></div>
         </div> <!-- END OF DISPLAY-->
-        <button type="button">Check</button>
-        <button type="reset">Clear</button>
+
+        <div class="buttons-wrapper">
+          <button type="button" id="check-btn">Check</button>
+          <button type="reset" id="clear-btn">Clear</button>
+        </div>
+
       </div> <!--END OF FRAME-->
     </div> <!--END OF WRAPPER-->
     <script src="script.js"></script>
