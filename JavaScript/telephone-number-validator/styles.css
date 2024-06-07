@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --body-background: #082032;
+  --title-and-input: #faf0e6;
+  --frame: #0b0909;
+  --valid: #013220;
+  --invalid: #900020;
+}
+
+body {
+  background-color: var(--body-background);
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+  max-width: 350px;
+  margin: 10vh auto 0 auto;
+  text-align: center;
+}
+
+h1 {
+  color: var(--title-and-input);
+  line-height: 1.3em;
+  margin-bottom: 10px;
+}
+
+.phone-frame {
+  background-color: var(--frame);
+  padding: 15px 10px 20px 10px;
+  margin: auto;
+  border: 1px solid #c0c0c0;
+  border-radius: 15px;
+  width: 300px;
+}
+
+.camera {
+  background-color: #faf0e6;
+  height: 15px;
+  width: 15px;
+  margin: 0 auto 12px auto;
+  border-radius: 50%;
+}
+
+.phone-display {
+  background: url("background-2-resized.jpg");
+  height: 500px;
+}
+
+label {
+  font-size: 1.3em;
+  font-weight: 600;
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+input {
+  display: block;
+  width: 230px;
+  height: 35px;
+  padding: 5px;
+  margin: 0 auto 20px auto;
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
+.output-area {
+  font-size: 1.4em;
+  font-weight: 500;
+  height: 390px;
+  padding: 5px;
+  overflow: auto;
+  scrollbar-width: thin;
+}
+
+.valid {
+  color: var(--valid);
+}
+
+.invalid {
+  color: var(--invalid);
+}
+
+.buttons-wrapper {
+  margin: 15px auto auto 0;
+ 
+}
+
+button {
+  display: inline-block;
+  height: 35px;
+  width: 120px;
+  font-size: 1.5em;
+  border-radius: 7px;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: var(--title-and-input);
+  cursor: pointer;
+}
+
+button:active {
+  background: #efdecd;
+  box-shadow: inset 0px 0px 5px #c1c1c1;
+  outline: none;
+}
