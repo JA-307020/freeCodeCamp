@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #082032;
+  color: #faf0e6;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+}
+
+.wrapper {
+  border: 1px solid white;
+  width: 350px;
+  height: 800px;
+  margin: 3vh auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper h1 {
+  margin-bottom: 1rem;
+}
+
+.change-due {
+  display: flex;
+  flex-direction: column;
+  font-variant: small-caps;
+}
+
+.interactive-area {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.interactive-area label {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.interactive-area input {
+  width: 200px;
+  height: 30px;
+  padding: 3px;
+  margin: 0 auto 0.5em auto;
+  outline: none;
+  font-weight: 500;
+  font-size: 1.2rem;
+  background-color: #faf0e6;
+  border: none;
+}
+
+.interactive-area button {
+  width: 150px;
+  height: 30px;
+  margin: 0.5em auto;
+  font-weight: 700;
+  font-size: 1.2em;
+  border-radius: 1rem;
+  background-color: #fdb750
+}
+
+.cash-register {
+  width: 300px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.display {
+  width: 200px;
+  height: 50px;
+  border: 10px solid #6495ed;
+  background-color: #000000;
+  color: #00ffff;
+  font-size: 1.2rem;
+  position: absolute;
+  left: 25px
+}
+
+.display-connector {
+  width: 30px;
+  height: 30px;
+  position: inherit;
+  top: 50px;
+  left: 50px;
+  background-color: #6495ed;
+}
+
+.body {
+  height: 250px;
+  background-color: #6495ed;
+  position: inherit;
+  top: 50px;
+  border-radius: 2rem 2rem 0 0
+}
+
+.body-numpad {
+  display: flex;
+  flex-flow: wrap;
+  height: 60px;
+  width: 60px;
+  position: inherit;
+  top: 18px;
+  left: 20px;
+
+}
+
+.nums {
+  background-color: #082032;
+  border: 2px solid #6495ed;
+  height: 20px;
+  width: 20px;
+}
+
+.body-drawer {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 160px;
+  background-color: #faf0e6;
+  color: #000000;
+  text-align: left;
+  line-height: 1.2rem;
+  padding: 5px;
+}
+
+.body-drawer .drawer-currency {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.body-drawer ul {
+  list-style-type: none;
+}
+

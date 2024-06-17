@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <meta charset="utf-8">
+    <meta name="description" content="Cash Register - freeCodeCamp JS project">
+    <meta name="keywords" content="portfolio">
+    <meta name="author" content="Adina Minican">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cash Register Project</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <h1>Cash Register Project</h1>
+      <div class="change-due">
+        <p>Test text: 1</p>
+        <p>Test text: 2</p>
+        <p>Test text: 3</p>
+        <p>Test text: 4</p>
+        <p>Test text: 5</p>
+      </div>
+      <div class="interactive-area">
+        <label for="cash">Enter cash from customer:</label>
+        <input type="number" id="cash" autofocus>
+        <button id="purchase-btn" type="button">Purchase</button>
+      </div>
+
+      <div class="cash-register">
+        <div class="display">
+          <p>Total: </p>
+        </div>
+        <div class="display-connector"></div>
+        <div class="body">
+          <div class="body-numpad">
+            <div class="nums"></div>
+            <div class="nums"></div>
+            <div class="nums"></div>
+            <div class="nums"></div>
+            <div class="nums"></div>
+            <div class="nums"></div>
+            <div class="nums"></div>
+            <div class="nums"></div>
+            <div class="nums"></div>
+          </div>
+          <div class="body-drawer">
+            <p><span class="drawer-currency">Change in drawer:</span></p>
+            <ul>
+              <li>Pennies: </li>
+              <li>Nickels: </li>
+              <li>Dimes: </li>
+              <li>Quarters: </li>
+              <li>Ones: </li>
+              <li>Fives: </li>
+              <li>Tens: </li>
+              <li>Twenties: </li>
+              <li>Hundreds: </li>
+            </ul> 
+          </div> <!-- end of cash register drawer -->
+          <div class="cash-register-body-bottom">
+            <div class="lock-button"></div>
+          </div>
+        </div> <!-- end of cash register body -->
+      </div> <!-- end of cash-register -->
+    </div> <!--END OF WRAPPER-->
+    <script src="script.js"></script>
+  </body>
+</html>
