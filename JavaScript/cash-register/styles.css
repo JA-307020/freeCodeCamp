@@ -12,7 +12,6 @@ body {
 }
 
 .wrapper {
-  border: 1px solid white;
   width: 350px;
   height: 800px;
   margin: 3vh auto;
@@ -73,7 +72,7 @@ body {
 .display {
   width: 200px;
   height: 50px;
-  border: 10px solid #6495ed;
+  border: 10px solid #abcdef;
   background-color: #000000;
   color: #00ffff;
   font-size: 1.2rem;
@@ -87,12 +86,12 @@ body {
   position: inherit;
   top: 50px;
   left: 50px;
-  background-color: #6495ed;
+  background-color: #abcdef;
 }
 
 .body {
   height: 250px;
-  background-color: #6495ed;
+  background-color: #abcdef;
   position: inherit;
   top: 50px;
   border-radius: 2rem 2rem 0 0
@@ -111,7 +110,7 @@ body {
 
 .nums {
   background-color: #082032;
-  border: 2px solid #6495ed;
+  border: 2px solid #abcdef;
   height: 20px;
   width: 20px;
 }
@@ -137,3 +136,19 @@ body {
   list-style-type: none;
 }
 
+.body-bottom {
+  width: 300px;
+  height: 50px;
+  padding: 15px;
+  background-color: #abcdef;
+  position: inherit;
+  top: 200px;
+}
+
+.lock-button {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: #082032;
+  margin: auto;
+}
