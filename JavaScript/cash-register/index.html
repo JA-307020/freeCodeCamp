@@ -13,13 +13,7 @@
   <body>
     <div class="wrapper">
       <h1>Cash Register Project</h1>
-      <div id="change-due">
-        <p>Test text: 1</p>
-        <p>Test text: 2</p>
-        <p>Test text: 3</p>
-        <p>Test text: 4</p>
-        <p>Test text: 5</p>
-      </div>
+      <div id="change-due"></div>
       <div class="interactive-area">
         <label for="cash">Enter cash from customer:</label>
         <input type="number" id="cash" autofocus>
@@ -27,7 +21,7 @@
       </div>
 
       <div class="cash-register">
-        <div class="display"></div>
+        <div class="display">Total: $1.87</div>
         <div class="display-connector"></div>
         <div class="body">
           <div class="body-numpad">
@@ -43,16 +37,8 @@
           </div>
           <div class="body-drawer">
             <p><span class="drawer-currency">Change in drawer:</span></p>
-            <ul>
-              <li>Pennies: </li>
-              <li>Nickels: </li>
-              <li>Dimes: </li>
-              <li>Quarters: </li>
-              <li>Ones: </li>
-              <li>Fives: </li>
-              <li>Tens: </li>
-              <li>Twenties: </li>
-              <li>Hundreds: </li>
+            <ul id="available-currency">
+
             </ul> 
           </div> <!-- end of cash register drawer -->
           <div class="body-bottom">
